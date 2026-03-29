@@ -1,0 +1,27 @@
+print("----Sum of two products-------")
+
+num1 = float(input("Enter the first number : "))
+num2 = float(input("Enter the second number : "))
+
+sum = num1 + num2
+Product = num1 * num2
+Dividend = num1 / num2
+Diferencer = num1 // num2
+
+print("num1", num1)
+print("num2", num2)
+print("Sum of two numbers", sum)
+print("Product of two numbers", Product)
+print("Dividend of two numbers", Dividend)
+print("Diferencer between two numbers", Diferencer)
+
+
+print("=============Convert Celusius to Farenheit================")
+
+Celusius = float(input("Enter the temperature in Celsius : "))
+
+formula = Celusius * 1.8 + 32
+print("Temperature in Farenheit", formula)
+
+
+print("=============Area of circle==============")
